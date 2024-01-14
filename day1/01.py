@@ -18,7 +18,5 @@ if __name__ == "__main__":
 	with open("01.txt") as file:
 		text = file.readlines()
 		for line in text:
-			sum = get_sum(line)
-			print(sum)
-			total_sum += sum
+			total_sum += get_sum(line)
 	print(total_sum)
